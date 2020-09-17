@@ -1,5 +1,7 @@
 def reverse_each_word(str)
-  str.each_char { |chr| 
+  str.each_char { |chr|
     puts chr
   }
 end
+
+reverse_each_word("asdf")
