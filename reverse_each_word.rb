@@ -1,9 +1,13 @@
 def reverse_each_word(str)
   new_arr = []
-  str.each_char { |chr|
-    new_arr.unshift(chr)
+  str.split(" ").each{ |word|
+    new_word=[]
+    word.each{ |letter|
+      new_word.unshift(letter)
+    }
+    new_arr.push(new_word.join())
   }
-  return new_arr.join()
+  return new_arr.join(" ")
 end
 
 # reverse_each_word("asdf")
