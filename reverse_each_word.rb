@@ -10,7 +10,7 @@ def reverse_each_word(str)
   # return new_arr.join(" ")
 
   str.collect { |e|
-  puts e  
+  puts e
 }
 end
 
