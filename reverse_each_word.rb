@@ -10,8 +10,9 @@ def reverse_each_word(str)
   # return new_arr.join(" ")
 
   str.split(" ").collect { |e|
-  e.reverse
-}
+    e.reverse
+  }
+  str.join(" ")
 end
 
 reverse_each_word("asdf asd as")
