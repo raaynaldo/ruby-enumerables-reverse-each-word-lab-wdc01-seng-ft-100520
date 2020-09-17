@@ -13,4 +13,4 @@ def reverse_each_word(str)
   puts e  }
 end
 
-# REVERSE_EACH_WORD("ASDF")
+reverse_each_word("asdf asd as")
