@@ -6,4 +6,4 @@ def reverse_each_word(str)
   return new_arr
 end
 
-reverse_each_word("asdf")
+# reverse_each_word("asdf")
